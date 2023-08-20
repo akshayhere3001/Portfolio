@@ -18,7 +18,7 @@ const Hero = () => {
           <p className={`${styles.paragraph} text-center`}>
             Hi, I&apos;m{" "}
             <span className="text-gray-500"> Akshay Vishwakarma. </span> A
-            Passionate frontend developer <br className="hidden sm:block" />
+            Passionate frontend developer<br className="hidden sm:block" />
             specializing in crafting captivating web experiences with React.
             <p className="sm:hidden text-gray-500">
               Take a moment to explore my featured projects and see how I
