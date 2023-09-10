@@ -1,4 +1,13 @@
-import { HooBank, Manage, Jcurve } from "../assets";
+import {
+  HooBank,
+  Manage,
+  Jcurve,
+  html,
+  css,
+  javascript,
+  react,
+  tailwind,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -22,32 +31,27 @@ export const navLinks = [
 export const techStack = [
   {
     id: 0,
-    language:
-      "https://stefantopalovicdev.vercel.app/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
+    language: html,
     title: "HTML5",
   },
   {
     id: 1,
-    language:
-      "https://stefantopalovicdev.vercel.app/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg",
+    language: css,
     title: "CSS3",
   },
   {
     id: 2,
-    language:
-      "https://stefantopalovicdev.vercel.app/static/media/javascript.de4c2594613e34b15666206bbede7327.svg",
+    language: javascript,
     title: "Javascript",
   },
   {
     id: 3,
-    language:
-      "https://stefantopalovicdev.vercel.app/static/media/react.afac9c43724070bf6674f2692b7356a9.svg",
+    language: react,
     title: "ReactJS",
   },
   {
     id: 4,
-    language:
-      "https://stefantopalovicdev.vercel.app/static/media/tailwind.79614a5f61617ba49a0891494521226b.svg",
+    language: tailwind,
     title: "TailwindCSS",
   },
 ];
